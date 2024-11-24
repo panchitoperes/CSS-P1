@@ -10,18 +10,26 @@ img {
     width: 500px;
     margin: 0 auto;
 }
-h1{
+.product_title {
     text-align: center;
     color: green;
 }
 a {
     color: blueviolet;
     text-decoration: underline;
-    text-align: center;
+    
 }
-p {
+.description {
     color: red;
     text-align: justify;
 }
-
+section {
+    background-color: rgba(0, 153, 255, 0.459);
+    margin: 1rem 0;
+    border-radius: 0.5rem ;
+    padding: 0.25rem 0;
+}
+.producto :hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.30);  /* Efecto fresa*/
+}
 
